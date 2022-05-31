@@ -6,7 +6,12 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "eslint": "eslint src/**/*.{ts,tsx}"
+    "eslint": "eslint --max-warnings=0"
+  },
+  "lint-staged": {
+    "src/**/*.{ts,tsx}": [
+      "npm run eslint"
+    ]
   },
   "dependencies": {
     "react": "^18.0.0",
