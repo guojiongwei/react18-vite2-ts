@@ -8,6 +8,7 @@ specifiers:
   '@vitejs/plugin-react': ^1.3.0
   eslint: ^8.16.0
   eslint-plugin-react: ^7.30.0
+  husky: ^8.0.1
   react: ^18.0.0
   react-dom: ^18.0.0
   typescript: ^4.6.3
@@ -25,6 +26,7 @@ devDependencies:
   '@vitejs/plugin-react': 1.3.2
   eslint: 8.16.0
   eslint-plugin-react: 7.30.0_eslint@8.16.0
+  husky: 8.0.1
   typescript: 4.7.2
   vite: 2.9.9
 
@@ -1394,6 +1396,12 @@ packages:
     engines: {node: '>= 0.4.0'}
     dependencies:
       function-bind: 1.1.1
+    dev: true
+
+  /husky/8.0.1:
+    resolution: {integrity: sha512-xs7/chUH/CKdOCs7Zy0Aev9e/dKOMZf3K1Az1nar3tzlv0jfqnYtu235bstsWTmXOR0EfINrPa97yy4Lz6RiKw==}
+    engines: {node: '>=14'}
+    hasBin: true
     dev: true
 
   /ignore/5.2.0:
