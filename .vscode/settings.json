@@ -1,0 +1,50 @@
+{
+  "search.exclude": {
+    "/node_modules": true,
+    "dist": true,
+    "pnpm-lock.sh": true
+  },
+  "editor.formatOnSave": true,
+  // 开启stylelint自动修复
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true, // 开启自动修复
+    "source.fixAll.stylelint": true // 开启stylelint自动修复
+  },
+  // 关闭编辑器内置样式检查（避免与stylelint冲突）
+  "css.validate": false,
+  "less.validate": false,
+  "scss.validate": false,
+  // 配置stylelint检查的文件类型范围
+  "stylelint.validate": ["css", "less", "postcss", "scss", "sass", "vue"],
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[less]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "liveServer.settings.port": 5502
+}
